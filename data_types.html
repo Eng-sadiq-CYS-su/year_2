@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        .u{
+            color:gold;
+            width: 80%;
+            height: 20em;
+            overflow: scroll;
+        }
+        h1{text-align: center;color: blueviolet;}
+        h2,h3,h4,strong{color: dodgerblue;}
+    </style>
+    <title>Data Types in python</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body style="background-color: black;">
+    <br>
+    <nav>
+        <ul class="container">
+        <li class="container1"><a class="container2" href="my_final_project.html">Home</a> </li>
+        <li class="container1"><a class="container2" href="about_python.html">about python</a> </li>
+        <li class="container1"><a class="container2" href="about_me.html">about me</a> </li>
+        <li class="container1"><a class="container2" href="data_types.html">data types in python </a> </li>
+        <li class="container1"><a class="container2" href="operations_in_python.html">operations in python</a> </li>
+        <li class="container1"><a class="container2" href="methods.html">Methods in python </a> </li>
+        </ul>
+    </nav>
+    <button onclick="sd()" style="position: sticky;top: 5em;">mode</button>
+    <script>
+        
+        function sd(){
+            if (document.body.style.backgroundColor=='black'){
+                document.body.style.backgroundColor='white';
+                document.body.style.color='black';
+                 
+            }
+            else if (document.body.style.backgroundColor=='white'){
+                document.body.style='styles.css';
+                document.body.style.backgroundColor='black';
+                
+            }
+            
+        }
+    </script>
+    <P style="text-align:center"><img src="py_data_types2.jpg" height="500" width="100%"></P>
+    
+    <br>
+    <p style="font-size: 4em;"><b class="c">CYS</b></p>
+    <br>
+    <br>
+    <br>
+    <header><b style="text-align:center" ><h3 style="color:rgb(223, 246, 11);border: 3px solid rgb(12, 178, 239);
+    border-radius: 20%;width: 30%;margin-left: 30%;" >data types in python </h3> </b></header>
+    
+    
+    <table style="width: 70%;">
+        
+        <tr>
+            <th style="background-color: rgb(103, 222, 176);color: #000;">name </th>
+            <th style="background-color: rgb(103, 222, 176);color: #000;">type</th>
+            <th style="background-color: rgb(103, 222, 176);color: #000;">example</th>
+        </tr>
+        <tr>
+            <td>int</td>
+            <td>integar number</td>
+            <td>x=3</td>
+        </tr>
+        </tr>
+        <tr>
+            <td>float</td>
+            <td>float number</td>
+            <td>x=3.5</td>
+        </tr>
+        </tr>
+        <tr>
+            <td>str</td>
+            <td>of type text and must be between double quotation or single quation</td>
+            <td>name="sadiq almubdi" or name='sadiq'</td>
+        </tr>
+        </tr>
+        <tr>
+            <td>list</td>
+            <td>any values and must be between bractets [] and seprated by comma</td>
+            <td>my_list=[1,2,5,9,22]</td>
+        </tr>
+        <tr>
+            <td>tuple</td>
+            <td>any values and must be between () and seprated by comma</td>
+            <td>my_tuple=("sadiq", "ali",'Mohammed')</td>
+        </tr>
+    </table>
+    <br><hr><br>
+     <strong style="background-color:rgba(38, 249, 136, 0.882);color:rgba(3, 6, 22, 0.899);">simple program in python to sum two numbers :</strong>
+     <br><br>
+    <div style="background-color:rgb(0, 234, 255);color:black;padding:20px;font-size: large;">
+     <pre>
+        #declaretion variables
+        x=4,y=5
+        z=x+y
+        print("the sum is :",z)
+
+        output will be " the sum is : 9 "
+
+     </pre>
+    </div><br><br>
+    <div class="u">
+        <h1>python lists</h1>
+        <h2>Python Collections (Arrays) :</h2>
+        <p>There are four collection data types in the Python programming language:</p>
+        <ul>
+        <li><strong>List :</strong> is a collection which is ordered and changeable. Allows duplicate members.</li>
+        <li><strong>Tuple :</strong> is a collection which is ordered and unchangeable. Allows duplicate members.</li>
+        <li><strong>Set :</strong> is a collection which is unordered and unindexed. No duplicate members.</li>
+        <li><strong>Dictionary :</strong> is a collection which is unordered, changeable and indexed. No duplicate members.</li>
+        </ul>
+        
+        <p>When choosing a collection type, it is useful to understand the properties of that type. Choosing the right type for a particular data set could mean retention of meaning, and, it could mean an increase in efficiency or security.</p>
+        
+        <h2>List :</h2>
+        <p>A list is a collection which is ordered and changeable. In Python lists are written with square brackets.</p>
+        
+        
+        <h3>Example :</h3>
+        <p>Create a List:</p>
+        <div style="background-color: rgb(127, 255, 185);color: black;margin: 2em;padding: 9px;">
+         thislist = ["apple", "banana", "cherry"]<br>
+         print(thislist)
+        </div>
+        <h2>Access Items</h2>
+
+        <p>You access the list items by referring to the index number:</p>
+
+       
+       <h3>Example</h3>
+       <p>Print the second item of the list:</p>
+       <div style="background-color: rgb(127, 255, 185);color: black;margin: 2em;padding: 8px;" >
+       thislist = [&quot;apple&quot;, &quot;banana&quot;, &quot;cherry&quot;]<br>
+       print(thislist[1])
+       </div> 
+
+      
+    </div>
+     
+    
+    <!-- <P style="text-align:center"><img src="img.png" height="400" width="100%"></P> -->
+    <br><br><br>
+    <footer style="height: 20em;text-align: center;">
+        <hr>
+        <div class="books"></div>
+            
+            <div class="bookh">مراجع عامة لتعلم البايثون من الصفر حتى الاحتراف</div><hr>
+            <div class="book">
+                <div class="book1">
+                    <b style="color: gold;">مراجع باللغة العربية </b>
+                    <ul style="list-style-type: none;">
+                        <li><a href="books/arabic5.pdf" style="text-decoration: none;color: rgb(4, 121, 247);">Book 1</a></li>
+                        <li><a href="books/arabic2.pdf" style="text-decoration: none;color: rgb(4, 121, 247);">Book 2</a></li>
+                        <li><a href="books/arabic3.pdf" style="text-decoration: none;color: rgb(4, 121, 247);">Book 3</a></li>
+                        <li><a href="books/arabic4.pdf" style="text-decoration: none;color: rgb(4, 121, 247);">Book 4</a></li>
+                        
+                    </ul>
+                    
+                </div>
+                <div class="book2">
+                    <b style="color: gold;">مراجع باللغة الانجليزية</b>
+                    <ul style="list-style-type: none;">
+                        <li><a href="books/eng1.pdf" style="text-decoration: none;color: rgb(4, 121, 247);">Book 1</a></li>
+                        <li><a href="books/eng2.pdf" style="text-decoration: none;color: rgb(4, 121, 247);">Book 2</a></li>
+                        <li><a href="books/eng3.pdf" style="text-decoration: none;color: rgb(4, 121, 247);">Book 3</a></li>
+                        <li><a href="books/Python.pdf" style="text-decoration: none;color: rgb(4, 121, 247);">Book 4</a></li>
+                        
+                    </ul>
+                    
+                </div>
+            </div>
+    
+        </div>
+    </footer>
+</body>
+</html>

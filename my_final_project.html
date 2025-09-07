@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+   <head>
+       <meta charset="UTF-8">
+       <title>my project2</title>
+    
+       <link rel="stylesheet" href="styles.css">
+   </head>
+   <body style="background-color: black;">
+
+    <header>
+        <h1 class="a">Hello world this is my project</h1>
+    </header>
+    <br>
+    <nav>
+        <ul class="container">
+        <li class="container1"><a class="container2" href="my_final_project.html">Home</a> </li>
+        <li class="container1"><a class="container2" href="about_python.html">about python</a> </li>
+        <li class="container1"><a class="container2" href="about_me.html">about me</a> </li>
+        <li class="container1"><a class="container2" href="data_types.html">data types in python </a> </li>
+        <li class="container1"><a class="container2" href="operations_in_python.html">operations in python</a> </li>
+        <li class="container1"><a class="container2" href="methods.html">Methods in python </a> </li>
+        </ul>
+    </nav>
+    <button onclick="sd()" style="position: sticky;top: 5em;">mode</button><br><br>
+    
+    <p id="el1">element deleted</p>
+        
+
+    <script>
+        window.alert('مرحبا بكم في موقعنا لتعلم لغة البايثون ')
+        function sd(){
+            if (document.body.style.backgroundColor=='black'){
+                document.body.style.backgroundColor='white';
+                document.body.style.color='black';
+            }
+            else if (document.body.style.backgroundColor=='white'){
+                document.body.style='styles.css';
+                document.body.style.backgroundColor='black';
+            }
+            
+        }
+      document.getElementById('el1').remove();
+      let add=document.createElement('strong');
+      add.textContent='element added by javascript';
+      document.body.appendChild(add);
+
+    </script>
+
+
+    <br><br><br><hr>
+    <!-- <div class="container-list">
+        <div class="bottom-list"> the list</div>
+        <ul class="ul-list">
+            <li class="li-list"><a class="a-list" href="my_final_project.html">Home</a> </li>
+            <li class="li-list"><a class="a-list" href="about_python.html">about python</a> </li>
+            <li class="li-list"><a class="a-list" href="about_me.html">about me</a> </li>
+            <li class="li-list"><a class="a-list" href="data_types.html">data types in python </a> </li>
+            <li class="li-list"><a class="a-list" href="operations_in_python.html">operations in python</a> </li>
+            <li class="li-list"><a class="a-list" href="methods.html">Methods in python </a> </li>
+        </ul>
+    
+    </div> -->
+    <br><br><br><br><hr><br><br>
+
+    <p style="font-size: 4em;"><b class="c">CYS</b></p>
+    <br>
+    <br>
+    <br>
+
+    <table>
+        <tr>
+            
+            <td><h2>about me </h2>
+                <ul>
+                  <li>
+                    <b id="c3">Name : </b>
+                  </li>
+                  <p style="color:blue;text-shadow: -2px 1px red;">Sadiq Saleh Mohammed Saleh Al-Mubdi</p>
+                  <li>
+                    <b>Date of birth : </b>
+                  </li>
+            
+                  <i style="color:red">8/3/2005</i>
+            
+                  <li>
+                    <b>job : </b>
+                  </li>
+            
+                   student in sana'a university
+                </ul></td>
+                <td style="text-align: right;width: 15%;" ><img  src="img2.jpg"  alt="flat"  title="my image " height="400" width="350"></td>
+        </tr>
+    </table>
+    <hr>
+    
+    
+        <u style="border: 2px solid sandybrown ;font-size: larger;color: gold;">More details : </u>
+
+
+      <p style="font-size: large;color: gold;">i live in al mahwit and i am study in
+        <strong>sana'a university college of computer specializing in cyber security</strong><br>
+      and i love <span style="color:blue">blue</span> color and i have more of friends in my university </p>
+
+
+    <ins>welcome in my web site</ins><br/>
+     
+    <hr>
+    
+
+    <div style="margin-left: 35%;font: 2em sans-serif;"> <a href="login_page.html"> return to login page</a></div><br><br>
+    <hr>
+    <b style="text-align:center" ><h3 style="color:rgb(223, 246, 11);border: 3px solid rgb(12, 178, 239);border-radius: 20%;width: 30%;margin-left: 30%;" >data types in python </h3> </b>
+    <table style="width: 70%;">
+        
+        <tr>
+            <th style="background-color: rgb(103, 222, 176);color: #000;">name </th>
+            <th style="background-color: rgb(103, 222, 176);color: #000;">type</th>
+            <th style="background-color: rgb(103, 222, 176);color: #000;">example</th>
+        </tr>
+        <tr>
+            <td>int</td>
+            <td>integar number</td>
+            <td>x=3</td>
+        </tr>
+        </tr>
+        <tr>
+            <td>float</td>
+            <td>float number</td>
+            <td>x=3.5</td>
+        </tr>
+        </tr>
+        <tr>
+            <td>str</td>
+            <td>of type text and must be between double quotation or single quation</td>
+            <td>name="sadiq almubdi" or name='sadiq'</td>
+        </tr>
+        </tr>
+        <tr>
+            <td>list</td>
+            <td>any values and must be between bractets [] and seprated by comma</td>
+            <td>my_list=[1,2,5,9,22]</td>
+        </tr>
+        <tr>
+            <td>tuple</td>
+            <td>any values and must be between () and seprated by comma</td>
+            <td>my_tuple=("sadiq", "ali",'Mohammed')</td>
+        </tr>
+    </table>
+    <br><hr>
+     <strong style="background-color:red">simple program in python to sum two numbers :</strong>
+     <br>
+    <div style="background-color:rgb(255, 149, 0);color:black;padding:20px;">
+     <pre>
+        #declaretion variables
+        x=4,y=5
+        z=x+y
+        print("the sum is :",z)
+
+        output will be " the sum is : 9 "
+
+     </pre>
+    </div>
+    <hr>
+    <h3 style="color:green;text-align:center;border: 3px solid rgb(76, 0, 255);" >arithmetic operations in python </h3> 
+    <table style="width: 70%;text-align: center;">
+        <tr>
+            <th style="background-color: chartreuse;color: #000;">Operation</th>
+            <th style="background-color: chartreuse;color: #000;">Name</th>
+            <th style="background-color: chartreuse;color: #000;">Example</th>
+        </tr>
+        <tr>
+            <td>+</td>
+            <td>addition</td>
+            <td>a+b</td>
+        </tr>
+        <tr>
+            <td>-</td>
+            <td>subtraction</td>
+            <td>a-b</td>
+        </tr>
+        <tr>
+            <td>*</td>
+            <td>multiplication</td>
+            <td>a*b</td>
+        </tr>
+        <tr>
+            <td>/</td>
+            <td>division</td>
+            <td>a/b</td>
+        </tr>
+        <tr>
+            <td>%</td>
+            <td>modulus</td>
+            <td>a%b</td>
+        </tr>
+        <tr>
+            <td>**</td>
+            <td>exponentiation</td>
+            <td>a**b</td>
+        </tr>
+        
+
+    </table><br><br><br><br><hr><br><br>
+   
+    <b style="background-color: chartreuse;text-align:center;color: blue;border: 5px groove gold;border-radius: 50%;padding: 1em;margin: 35%;" >logical operations in python </b> 
+    <br><br><br><br>
+    <table class="d" width="70%">
+        <tr>
+           <th class="d" style="background-color: rgb(0, 157, 255);">Operator</th>
+           <th class="d" style="background-color: rgb(0, 157, 255);">Description</th>
+           <th class="d" style="background-color: rgb(0, 157, 255);">Example</th>
+        </tr>
+        <tr>
+            <td class="d">and</td>
+            <td class="d">returns True if both statements are true</td>
+            <td class="d">x < 5 and x < 10 </td>
+        </tr>
+        <tr>
+            <td class="d">or</td>
+            <td class="d">returns True if one of the statements is true </td>
+            <td class="d">x < 5 or x < 4  </td>
+        </tr>
+        <tr>
+            <td class="d">not </td>
+            <td class="d">Reverse the result , returns False if the result is true </td>
+            <td class="d">not(x < 5 and x < 10 )</td>
+        </tr>
+    </table><br><br><br><hr><br><br><br><br>
+    <b class="methods"> methods in python </b>
+    <br><br><br><br>
+
+     <ol>
+        <li>append() :</li>
+        <p>Adds an element at the end of the list.</p>
+        <li>clear() :</li>
+        <p>Removes all the elements from the list.</p>
+        <li>copy() :</li>
+        <p>Returns a copy of the list</p>
+        <li>count() :</li>
+        <p>Returns the number of elements with the specified value</p>
+        <li>extend() :</li>
+        <p>Add the elements of a list (or any iterable), to the end of the current list</p>
+        <li>index() :</li>
+        <p>Returns the index of the first element with the specified value</p>
+        <li>insert() :</li>
+        <p>Adds an element at the specified position</p>
+        <li>pop() :</li>
+        <p>Removes the element at the specified position</p>
+        <li>remove() :</li>
+        <p>Removes the first item with the specified value</p>
+        <li>Reverse() :</li>
+        <p>Reverses the order of the list</p>
+        <li>sort() :</li>
+        <p>Sorts the list</p>
+     </ol>
+     <br><br>
+     
+   
+   <footer style="height: 20em;text-align: center;">
+    <hr>
+    <div class="books"></div>
+        
+        <div class="bookh">مراجع عامة لتعلم البايثون من الصفر حتى الاحتراف</div><hr>
+        <div class="book">
+            <div class="book1">
+                <b style="color: gold;">مراجع باللغة العربية </b>
+                <ul style="list-style-type: none;">
+                    <li><a href="books/arabic5.pdf" style="text-decoration: none;color: rgb(4, 121, 247);">Book 1</a></li>
+                    <li><a href="books/arabic2.pdf" style="text-decoration: none;color: rgb(4, 121, 247);">Book 2</a></li>
+                    <li><a href="books/arabic3.pdf" style="text-decoration: none;color: rgb(4, 121, 247);">Book 3</a></li>
+                    <li><a href="books/arabic4.pdf" style="text-decoration: none;color: rgb(4, 121, 247);">Book 4</a></li>
+                    
+                </ul>
+                
+            </div>
+            <div class="book2">
+                <b style="color: gold;">مراجع باللغة الانجليزية</b>
+                <ul style="list-style-type: none;">
+                    <li><a href="books/eng1.pdf" style="text-decoration: none;color: rgb(4, 121, 247);">Book 1</a></li>
+                    <li><a href="books/eng2.pdf" style="text-decoration: none;color: rgb(4, 121, 247);">Book 2</a></li>
+                    <li><a href="books/eng3.pdf" style="text-decoration: none;color: rgb(4, 121, 247);">Book 3</a></li>
+                    <li><a href="books/Python.pdf" style="text-decoration: none;color: rgb(4, 121, 247);">Book 4</a></li>
+                    
+                </ul>
+                
+            </div>
+        </div>
+
+    </div>
+</footer>
+   </body>
+</html>
